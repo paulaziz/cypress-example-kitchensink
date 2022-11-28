@@ -65,7 +65,6 @@ describe('example to-do app', () => {
     })
 
     it('can delete all completed tasks', () => {
-
       cy.contains('Clear completed').click()
 
       cy.get('.todo-list li')
